@@ -1,0 +1,111 @@
+@font-face {
+  font-family: myFont;
+  src: url(./fonts/Roboto-Black.ttf);
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e9ff;
+}
+
+h1 {
+  text-align: center;
+  font-family: myFont;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+  color: #5d37c8;
+}
+
+section {
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ul li {
+  list-style: none;
+  padding: 0;
+  margin-left: -18px;
+} */
+
+li {
+  margin-bottom: 15px;
+  list-style: none;
+  color: wheat;
+}
+li:before {
+  content: "\2503";
+  font-weight: bolder;
+  color: #f3d355;
+}
+
+img {
+  height: 150px;
+}
+
+.main {
+  background-color: #774ad8;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.indented-paragraph {
+  padding-left: 17px;
+}
+
+.highlight {
+  background-color: wheat;
+  color: black;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 6px;
+}
+
+/* .download_button {
+  background-color: #f6ca28; 
+  color: black;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  
+  justify-content: center;
+  align-items: center;
+  
+} */
+.centered_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download_button {
+  display: inline-block;
+  background-color: #f6ca28;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.download_button a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  color: #84778f;
+  text-align: center;
+}
